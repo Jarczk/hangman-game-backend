@@ -1,7 +1,7 @@
 //import { MongooseModule, Prop, SchemaFactory, Schema } from '@nestjs/mongoose';
 import { Document, HydratedDocument, Types, Schema as mSchema, SchemaTypes } from 'mongoose';
 
-var uniqueValidator = require('mongoose-unique-validator');
+const uniqueValidator = require('mongoose-unique-validator');
 
 export const WordSchema=new mSchema({
     //_id: {type: SchemaTypes.ObjectId},
